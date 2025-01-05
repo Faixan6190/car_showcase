@@ -19,7 +19,8 @@ const Hero = () => {
       </div>
       <div className="hero__image-container">
         <div className="hero__image">
-          <Image src="/hero.png" alt="hero fill" width={600} height={0} className="object-contain" />
+          <Image src="/hero.png" alt="hero" fill className="object-contain" />
+          <div className="hero__image-overlay" />
         </div>
       </div>
     </div>
@@ -27,4 +28,3 @@ const Hero = () => {
 };
 
 export default Hero;
-  
